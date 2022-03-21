@@ -1,0 +1,138 @@
+
+body 
+{
+    margin: 0px;
+}
+
+h2 {
+    margin: 0;
+    font-family: 'Alef';
+    font-size: 22px;
+    color: #333;
+    background-color: rgb(159, 195, 252);
+    text-align: center;
+    margin: 0;
+    margin-top: -70px;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+}
+
+.logo {
+    background-color: rgb(95, 155, 250);
+    display: grid;
+    grid-template-columns: 100px 400px;
+    padding: 20px;
+}
+header
+{
+    margin: 0;
+}
+
+header img {
+    width: 60px;
+    float:left;
+    margin: 30px;
+}
+header h1 
+{
+    position:relative;
+    top: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+
+}
+nav li 
+{
+    float: left;
+    font-family: 'Alef';
+    font-size: 20px;
+
+}
+nav li a {
+    display: block;
+    color: rgb(159, 195, 252);
+    text-align: center;
+    padding: 14px 170px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: aliceblue;
+}
+#about {
+    align-self: flex-end;
+}
+
+main {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 20px 1fr;
+    grid-gap: 60px;
+}
+
+.sketch {
+    font-family: 'Annie Use Your Telescope';
+    font-size: 40px;
+    color: #333;
+
+}
+.blog-image {
+    height: 300px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+
+}
+.top {
+    justify-self: center;
+}
+.top h2{
+    text-align: center;
+}
+.video {
+    padding: 0;
+    grid-column: 1/3;
+
+}
+img {
+    margin: 0;
+    padding: 0;
+}
+.recent {
+    grid-column: 1/4;
+    text-align: left;
+}
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #333;
+    
+}
+footer li 
+{
+    font-family: 'Alef';
+    font-size: 20px;
+
+}
+footer li a {
+    display: block;
+    color: rgb(159, 195, 252);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+footer li a:hover {
+    color: black;
+}
