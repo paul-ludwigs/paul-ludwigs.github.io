@@ -79,6 +79,10 @@ main {
     grid-gap: 60px;
 }
 
+main img {
+    height: 10px;
+}
+
 .sketch {
     font-family: 'Annie Use Your Telescope';
     font-size: 40px;
