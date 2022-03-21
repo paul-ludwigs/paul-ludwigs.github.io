@@ -22,7 +22,7 @@ h2 {
     background-color: rgb(95, 155, 250);
     display: grid;
     grid-template-columns: 100px 400px;
-    padding: 20px;
+    padding: 5px;
 }
 header
 {
