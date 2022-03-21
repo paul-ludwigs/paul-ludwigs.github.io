@@ -59,7 +59,7 @@ nav li a {
     display: block;
     color: rgb(159, 195, 252);
     text-align: center;
-    padding: 14px 170px;
+    padding: 14px 150px;
     text-decoration: none;
 }
 nav li a:hover {
@@ -71,8 +71,7 @@ nav li a:hover {
 
 main {
     width: 80%;
-    padding-left: 200px;
-    margin-top: 35px;
+    margin-left: 160px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 20px 1fr;
