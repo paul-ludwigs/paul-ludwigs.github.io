@@ -70,7 +70,8 @@ nav li a:hover {
 }
 
 main {
-    justify-items: center;
+    width: 80%;
+    padding-left: 200px;
     margin-top: 35px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
